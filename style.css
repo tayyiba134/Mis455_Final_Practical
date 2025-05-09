@@ -47,13 +47,11 @@ button:hover {
 }
 
 #displayArea {
-    background-color: white;
-    
+    background-color: white;    
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    width: 80%;
-    
+    width: 100%;
     text-align: center;
 }
 
