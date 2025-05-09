@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2fc5a0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.search-container {
+    margin-top: 20px;
+}
+
+#country-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4f9c4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#displayArea {
+    background-color: white;
+    
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+    text-align: center;
+}
+
+
+.innerStyle {
+    border: 2px solid #ff704d;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff8e1;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.innerStyle img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
